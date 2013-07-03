@@ -25,7 +25,7 @@ Stable Tag: 1.0
 
 <p><em>En fran&ccedil;ais</em></p>
 <p>1. Recopier le contenu de l'archive dans le r&eacute;pertoire des extensions (wp-content/plugins) et activer dans le panneau des extensions du backoffice de Wordpress.<br/>
-2. Régler les param&egrave;tres dans les options de l'extension.<br/>
+2. R&eacute;gler les param&egrave;tres dans les options de l'extension.<br/>
 3. Utiliser le widget ou le shortcode [planification] pour afficher les publications planifi&eacute;es.</p>
 
 <p><em>For English people</em></p>
