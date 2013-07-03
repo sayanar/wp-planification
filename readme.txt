@@ -1,4 +1,4 @@
-=== WP-Planification - Planning ===
+=== WP-Planification - WP-Planning ===
 Contributors: Mathieu Chartier
 Donate link: http://www.mathieu-chartier.com
 Author URI: http://blog.internet-formation.fr/2013/07/wp-planification/
@@ -18,8 +18,8 @@ Stable Tag: 1.0
 <strong>WP-Planification</strong> g&eacute;n&egrave;re un widget et le shortcode [planification] pour afficher les prochaines publications (planifi&eacute;es dans WordPress). <strong>Tout est enti&egrave;rement param&eacute;trable</strong> dans les r&eacute;glages de WordPress (sous-menu 'WP-Planification').</p>
 
 <p><em>For English people</em></p>
-<p><strong>WP-Planification</strong> fonctionne en anglais et en fran&ccedil;ais<br/>
-<strong>WP-Planification</strong> creates a widget and shortcode [planification] to display the scheduled posts or pages (planned in WordPress). <strong>Everything is fully configurable</strong> in the settings of WordPress (submenu 'WP-Planification').</p>
+<p><strong>WP-Planning</strong> works in English and in French<br/>
+<strong>WP-Planning</strong> creates a widget and shortcode [planification] to display the scheduled posts or pages (planned in WordPress). <strong>Everything is fully configurable</strong> in the settings of WordPress (submenu 'WP-Planification').</p>
 
 == Installation ==
 
