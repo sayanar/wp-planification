@@ -1,4 +1,4 @@
-=== Gestion de tarifs ===
+=== WP-Planification - Planning ===
 Contributors: Mathieu Chartier
 Donate link: http://www.mathieu-chartier.com
 Author URI: http://blog.internet-formation.fr/2013/07/wp-planification/
