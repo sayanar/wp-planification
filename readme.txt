@@ -29,7 +29,7 @@ Stable Tag: 1.0
 3. Utiliser le widget ou le shortcode [planification] pour afficher les publications planifi&eacute;es.</p>
 
 <p><em>For English people</em></p>
-<p>1. Copy the content of the archive in "wp-content/plugins" and activate the extension.<br/>
+<p>1. Copy the content of the archive in "wp-content/plugins" and activate the plugin.<br/>
 2. Adjust the settings in the options.<br/>
 3. Use the widget or the shortcode [planification] to show scheduled posts.</p>
 
