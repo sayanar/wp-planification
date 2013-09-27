@@ -3,7 +3,7 @@ Contributors: Mathieu Chartier
 Donate link: http://www.mathieu-chartier.com
 Author URI: http://blog.internet-formation.fr/2013/07/wp-planification/
 Plugin URI: http://wordpress.org/extend/plugins/wp-planification/
-Tags: planification, planning, organisation, event, events, événements, evenement, evenements, événement, publications, futur, à venir, a venir, planif, planing, plan, future, post_date, dates, date, sortie, sorties, schedule, scheduled, posts, post, teasing, tease, plan, agenda, prochains
+Tags: planification, planning, organisation, event, events, événements, evenement, evenements, événement, publications, futur, à venir, a venir, planif, planing, plan, future, post_date, dates, date, sortie, sorties, schedule, scheduled, posts, post, teasing, tease, plan, readmore, calendrier, calendar
 License: GPLv2 or later
 Requires at least: 2.5
 Tested up to: 3.6.1
@@ -38,6 +38,8 @@ Stable Tag: 2.0
 1. "WP-Planification" dans le backoffice de Wordpress (BackOffice screenshot).
 2. Panneau du widget (widget panel).
 3. Utilisation et fonctionnement de "WP-Planification" (the use of "WP-Planification").
+4. Exemple d'usage complet (for example : complete usage of "WP-Planification").
+5. Quelques exemples (many examples).
 
 == Changelog ==
 
@@ -46,3 +48,13 @@ Stable Tag: 2.0
 - Premi&egrave;re version du widget et du shortcode unique [planification]
 - Panneau de configuration complet mis en place
 - Ajout d'un syst&egrave;me de traduction (fran&ccedil;ais et anglais par d&eacute;faut)
+
+= Version 2.0 (28/09/2013) =
+
+- Possibilit&eacute; de d&eacute;sactiver le bloc sans couper le shortcode ou le widget
+- Possibilit&eacute; d'ajouter le contenu ou l'extrait en plus de la date et du titre (ou lien)
+- Possibilit&eacute; d'ajouter l'image à la Une associ&eacute;e au contenu
+- Ajout possible d'un "Lire la suite" avec texte au choix
+- Ajout de plusieurs styles CSS au choix
+- Gestion des options revue et corrig&eacute;e (plus pr&eactute;cise)
+- Syst&egrave;me de traduction compl&eacute;t&eacute; (fran&ccedil;ais et anglais par d&eacute;faut)

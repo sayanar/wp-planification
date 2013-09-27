@@ -1,0 +1,12 @@
+.clearBlock{clear:both;}
+.WP-Planification{padding:0 0 1em 0 !important;margin:0 0 1em 0 !important}
+.WP-Planification h2{color:#f1f1f1 !important;background:#95c000 !important;border-radius:8px 8px 0 0;padding:1em !important;margin:0 !important;font-size:1.2em;font-weight:bold}
+.WP-Planification-Date{font-weight:bold}
+.WP-Planification-Image{width:24%;float:left;margin:.1em .5em 0 1em}
+.WP-Planification-Content{font-size:.8em;margin:0 1em 0 1.2em}
+.WP-Planification-Bloc{margin:.8em 0 .4em 0 !important;padding:0 1em !important;font-size:.85em}
+.WP-Planification-Bloc a,.WP-Planification-URL,.WP-Planification-ReadMore a{color:#242424 !important}
+.WP-Planification-ReadMore a{float:right;margin-right:1em;font-size:.8em}
+.WP-Planification-ReadMore {clear:both;}
+.WP-Planification-Bloc p,.WP-Planification-Bloc div{padding:0 .9em}
+.WP-Planification-Bloc a:hover,.WP-Planification-ReadMore a:hover{text-decoration:none}
