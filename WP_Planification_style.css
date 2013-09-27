@@ -1,0 +1,8 @@
+.WP-Planification{border:2px solid #1c2f37;border-radius:10px 10px 0 0;padding:0 0 1em 0 !important;margin:0 0 1em 0 !important}
+.WP-Planification h2{color:#f1f1f1 !important;background:#1c2f37 !important;border-radius:8px 8px 0 0;padding:1em !important;margin:0 !important;font-size:1.2em;font-weight:bold}
+.WP-Planification-Date{font-weight:bold}
+.WP-Planification-Bloc{margin:0.8em 0 0 0 !important;padding:0 1em !important}
+.WP-Planification-Bloc a, .WP-Planification-URL{color:#007db7 !important}
+.WP-Planification-Bloc p,.WP-Planification-Bloc div{padding:0 1em}
+.WP-Planification-Bloc a:hover{text-decoration:none}
+
