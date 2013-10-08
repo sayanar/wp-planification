@@ -110,6 +110,16 @@ function WP_Planification_Callback() {
 		// Sélection des données dans la base de données		
 		$select = $wpdb->get_row("SELECT * FROM $table_WP_Planification WHERE id=1");
 ?>
+<script language=javascript>
+function montrer(object) {
+   if (document.getElementById) document.getElementById(object).style.display = 'block';
+}
+
+function cacher(object) {
+   if (document.getElementById) document.getElementById(object).style.display = 'none';
+}
+</script>
+
         <form method="post" action="">
         <table cols="4" width="100%">
         	<tr valign="top">
@@ -175,11 +185,11 @@ function WP_Planification_Callback() {
                     <p>
                         <label for="wp_planification_suite"><strong><?php _e('Afficher un lien "Lire la suite..."','WP-Planification'); ?></strong></label>
                         <select name="wp_planification_suite" id="wp_planification_displaysuite" style="width:75%;border:1px solid #ccc;">
-                            <option value="1" <?php if($select->suite == true) { echo 'selected="selected"'; } ?>><?php _e('Oui','WP-Planification'); ?></option>
-                            <option value="0" <?php if($select->suite == false) { echo 'selected="selected"'; } ?>><?php _e('Non','WP-Planification'); ?></option>
+                            <option value="1" onclick="montrer('blockReadMore');" <?php if($select->suite == true) { echo 'selected="selected"'; } ?>><?php _e('Oui','WP-Planification'); ?></option>
+                            <option value="0" onclick="cacher('blockReadMore');" <?php if($select->suite == false) { echo 'selected="selected"'; } ?>><?php _e('Non','WP-Planification'); ?></option>
                         </select>
                     </p>
-                    <p>
+                    <p id="blockReadMore" <?php if($select->suite == true) { echo 'style="display:block;"'; } else { echo 'style="display:none;"'; } ?>>
                         <label for="wp_planification_textsuite"><strong><?php _e('Texte du "Lire la suite..." (si actif)','WP-Planification'); ?></strong></label><br />
                         <input value="<?php echo $select->TextSuite; ?>" name="wp_planification_textsuite" id="wp_planification_textsuite" type="text" style="width:75%;border:1px solid #ccc;" />
                     </p>

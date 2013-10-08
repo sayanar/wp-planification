@@ -103,11 +103,14 @@ class WP_widget_planification extends WP_widget {
 					// On crée une variable $dateFuture pour récupérer les champs de la base de donnée qui nous intéresse
 					foreach ($RequeteSQL as $dateFuture) {
 						$nb++; // Incrémentation automatique de l'ID à chaque tour de boucle
+						
+						/*
 						// Requête de récupération des résultats dans la base de données (pour afficher les informations)						
 						$ImageOK = $wpdb->get_results("SELECT * FROM $tableCible AS p INNER JOIN $tableMeta AS m1 ON (m1.post_id = '".$dateFuture->ID."' AND m1.meta_value = p.ID AND m1.meta_key = '_thumbnail_id' AND p.post_type = 'attachment')");
 						foreach($ImageOK as $img) {
 							$imageThumb = '<img src="'.$img->guid.'" alt="'.$img->post_title.'" />'; // Image à la Une
-						}
+						} */
+						$imageThumb = get_the_post_thumbnail($dateFuture->ID,'thumbnail');
 
 						// Instanciation des variables $dateFuture
 						$dateInfo = mysql2date($formatageDate, $dateFuture->post_date); // Date de l'événement prévisionnel (au format "dimanche 30 juin 2013")
