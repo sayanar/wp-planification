@@ -1,6 +1,6 @@
 <?php
 // Création du shortcode [planification]
-function WP_Planification_Shortcode() {
+function WP_Planification_Shortcode($atts = '') {
 	
 	// Avec récupération des réglages dans la base de données
 	global $wpdb, $table_WP_Planification;
@@ -49,12 +49,22 @@ function WP_Planification_Shortcode() {
 		$tableCible = $wpdb->posts; // Récupération de la table de base de donnée à parcourir (ici, "posts" pour celles des pages et articles)
 		$tableMeta = $wpdb->postmeta; // Récupération des métas pour l'image à la Une
 		
+		// Ajout d'un paramètre au shortcode
+		extract(shortcode_atts(array(
+			'nb' => 1,
+		), $atts));
+		
 		// Limitation du nombre d'affichage
-		if(is_numeric($Limit) && $Limit !== "0") {
-			$limitation = 'LIMIT '.$Limit;
+		if(isset($atts) && !empty($atts) && "{$nb}" !== "0") {
+			$limitation = "LIMIT {$nb}";
 		} else {
-			$limitation = '';
+			if(is_numeric($Limit) && $Limit !== "0") {
+				$limitation = 'LIMIT '.$Limit;
+			} else {
+				$limitation = '';
+			}
 		}
+		
 		// Choix du type de contenu à afficher
 		if(!empty($choixColonne)) {
 			$ChoiceColumn = "AND post_type = '".$choixColonne."'";

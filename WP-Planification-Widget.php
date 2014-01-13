@@ -17,6 +17,7 @@ class WP_widget_planification extends WP_widget {
 		$donnees = $wpdb->get_row("SELECT * FROM $table_WP_Planification WHERE id=1", ARRAY_A);
 		
 		$titreBloc			= apply_filters('widget_title', $instance['titre']); // titre récupéré via le widget
+		$nb					= apply_filters('widget_nb', $instance['nb']); // nombre récupéré via le widget
 		$BlocOK				= $donnees['activ'];
 		$suite				= $donnees['suite']; // Active ou non le "lire la suite..."
 		$TagSuite			= $donnees['TotalTagSuite']; // Balise du bloc "Lire la suite..."
@@ -63,10 +64,14 @@ class WP_widget_planification extends WP_widget {
 			$tableMeta = $wpdb->postmeta; // Récupération des métas pour l'image à la Une
 			
 			// Limitation du nombre d'affichage
-			if(is_numeric($Limit) && $Limit !== "0") {
-				$limitation = 'LIMIT '.$Limit;
+			if(isset($nb) && !empty($nb) && $nb !== "0") {
+				$limitation = "LIMIT ".$nb;
 			} else {
-				$limitation = '';
+				if(is_numeric($Limit) && $Limit !== "0") {
+					$limitation = 'LIMIT '.$Limit;
+				} else {
+					$limitation = '';
+				}
 			}
 			// Choix du type de contenu à afficher
 			if(!empty($choixColonne)) {
@@ -272,6 +277,7 @@ class WP_widget_planification extends WP_widget {
         $instance = $old_instance;
 		$instance['activ']			= $new_instance['activ'];
 		$instance['titre']			= $new_instance['titre'];
+		$instance['nb']				= $new_instance['nb'];
 		$instance['suite']			= $new_instance['suite'];
 		$instance['TotalTagSuite']	= $new_instance['TotalTagSuite'];
 		$instance['TextSuite']		= $new_instance['TextSuite'];
@@ -310,14 +316,17 @@ class WP_widget_planification extends WP_widget {
  
     function form($instance) {
 		$defaut = array(
-			"titre" => __('Prochains événements', 'WP-Planification')
+			"titre" => __('Prochains événements', 'WP-Planification'),
+			"nb" => $Limit
 		);
 	    $instance = wp_parse_args($instance, $defaut);
 ?>
         <p><em><?php _e('Consultez la page de réglages pour tout paramétrer en détail...', 'WP-Planification'); ?></em></p>
         <p>
 			<label for="<?php echo $this->get_field_id('titre'); ?>"><strong><?php _e('Titre', 'WP-Planification'); ?></strong></label><br />
-	        <input value="<?php echo $instance['titre']; ?>" name="<?php echo $this->get_field_name('titre'); ?>" id="<?php echo $this->get_field_id('titre'); ?>" type="text" style="width:100%;" />
+	        <input value="<?php echo $instance['titre']; ?>" name="<?php echo $this->get_field_name('titre'); ?>" id="<?php echo $this->get_field_id('titre'); ?>" type="text" style="width:100%;" /><br/><br/>
+            <label for="<?php echo $this->get_field_id('nb'); ?>"><strong><?php _e('Nombre de posts (optionnel)', 'WP-Planification'); ?></strong></label><br />
+            <input value="<?php echo $instance['nb']; ?>" name="<?php echo $this->get_field_name('nb'); ?>" id="<?php echo $this->get_field_id('nb'); ?>" type="text" style="width:100%;" />
         </p>
 <?php
 	}

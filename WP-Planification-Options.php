@@ -337,7 +337,7 @@ function cacher(object) {
                     <h2><?php _e('Autres options','WP-Planification'); ?></h2>
                     <h3><?php _e('Options de la base de données','WP-Planification'); ?></h3>
                     <p>
-                        <label for="wp_planification_limit"><strong><?php _e('Nombre de publications affichées','WP-Planification'); ?></strong></label><br />
+                        <label for="wp_planification_limit"><strong><?php _e('Nombre de posts affichés par défaut','WP-Planification'); ?></strong></label><br />
                         <input value="<?php echo $select->LimitColumn; ?>" name="wp_planification_limit" id="wp_planification_limit" type="text" style="width:75%;border:1px solid #ccc;" />
                     </p>
                     <p>
