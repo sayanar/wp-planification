@@ -1,0 +1,583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP_Planification\n"
+"POT-Creation-Date: 2014-01-13 12:43+0100\n"
+"PO-Revision-Date: 2014-01-13 12:43+0100\n"
+"Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
+"Language: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: plurals=2;plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../WP-Planification-Activation-BDD.php:75
+#: ../WP-Planification-Widget.php:319
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:158
+msgid "Prochains événements"
+msgstr ""
+
+#: ../WP-Planification-Activation-BDD.php:78
+msgid "Lire la suite..."
+msgstr ""
+
+#: ../WP-Planification-Activation-BDD.php:79
+msgid "WP-Planification-ReadMore"
+msgstr ""
+
+#: ../WP-Planification-Activation-BDD.php:102
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:165
+msgid "Aucun événement"
+msgstr ""
+
+#: ../WP-Planification-Activation-BDD.php:103
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:166
+msgid "Aucun événement pour le moment"
+msgstr ""
+
+#: ../WP-Planification-Options.php:90 ../WP-Planification-Options.php:442
+msgid "Enregistrer"
+msgstr ""
+
+#: ../WP-Planification-Options.php:99
+msgid "Aide et réglages de WP-Planification."
+msgstr ""
+
+#: ../WP-Planification-Options.php:100
+msgid ""
+"<strong>WP-Planification</strong> est un plugin permettant d'afficher des "
+"publications futures comme bon vous semble."
+msgstr ""
+
+#: ../WP-Planification-Options.php:101
+msgid ""
+"Le fonctionnement est simple : il suffit de <strong>planifier une date de "
+"publication à venir</strong> pour que la page ou l'article soit affiché par "
+"le plugin (widget ou shortcode selon votre choix)."
+msgstr ""
+
+#: ../WP-Planification-Options.php:102
+msgid ""
+"Ajoutez librement la date (ou non), le lien (ou non), un contenu (page ou "
+"article) ou un extrait (ou non) ainsi qu'une image à la Une (ou non)..."
+msgstr ""
+
+#: ../WP-Planification-Options.php:103
+msgid "Deux options d'utilisation :"
+msgstr ""
+
+#: ../WP-Planification-Options.php:105
+msgid "<strong>Widget</strong> entièrement modulable"
+msgstr ""
+
+#: ../WP-Planification-Options.php:106
+msgid ""
+"<strong>Shortcode [planification]</strong> à ajouter dans les articles ou "
+"pages"
+msgstr ""
+
+#: ../WP-Planification-Options.php:108
+msgid ""
+"<em>N.B. : n'hésitez pas à contacter <a href=\"http://blog.internet-"
+"formation.fr\" target=\"_blank\">Mathieu Chartier</a>, le créateur du "
+"plugin, pour de plus amples informations.</em>"
+msgstr ""
+
+#: ../WP-Planification-Options.php:127
+msgid "Paramètres de l'extension"
+msgstr ""
+
+#: ../WP-Planification-Options.php:129
+msgid "Afficher le bloc de planification"
+msgstr ""
+
+#: ../WP-Planification-Options.php:131 ../WP-Planification-Options.php:188
+#: ../WP-Planification-Options.php:199 ../WP-Planification-Options.php:331
+msgid "Oui"
+msgstr ""
+
+#: ../WP-Planification-Options.php:132 ../WP-Planification-Options.php:189
+#: ../WP-Planification-Options.php:200 ../WP-Planification-Options.php:332
+msgid "Non"
+msgstr ""
+
+#: ../WP-Planification-Options.php:136
+msgid "Titre du bloc (shortcode)"
+msgstr ""
+
+#: ../WP-Planification-Options.php:138
+msgid "Laisser vide pour masquer le titre..."
+msgstr ""
+
+#: ../WP-Planification-Options.php:140
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:180
+msgid "Options d'affichage"
+msgstr ""
+
+#: ../WP-Planification-Options.php:142
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:182
+msgid "Formatage de la date"
+msgstr ""
+
+#: ../WP-Planification-Options.php:144
+msgid ""
+"<a href=\"http://php.net/manual/fr/function.date.php\" target=\"_blank"
+"\">Voir documentation PHP sur les dates</a></em><br/><em>(ex : \"l j F Y\" "
+"pour \"mardi 25 juin 2013\")"
+msgstr ""
+
+#: ../WP-Planification-Options.php:147
+msgid "Ordre d'affichage des blocs"
+msgstr ""
+
+#: ../WP-Planification-Options.php:149
+msgid "Date-Titre seul"
+msgstr ""
+
+#: ../WP-Planification-Options.php:150
+msgid "Extrait-Article seul"
+msgstr ""
+
+#: ../WP-Planification-Options.php:151
+msgid "Image seule"
+msgstr ""
+
+#: ../WP-Planification-Options.php:152
+msgid "Date-Titre => Extrait-Article"
+msgstr ""
+
+#: ../WP-Planification-Options.php:153
+msgid "Extrait-Article => Date-Titre"
+msgstr ""
+
+#: ../WP-Planification-Options.php:154
+msgid "Date-Titre => Image"
+msgstr ""
+
+#: ../WP-Planification-Options.php:155
+msgid "Image => Date-Titre"
+msgstr ""
+
+#: ../WP-Planification-Options.php:156
+msgid "Image => Extrait-Article"
+msgstr ""
+
+#: ../WP-Planification-Options.php:157
+msgid "Extrait-Article => Image"
+msgstr ""
+
+#: ../WP-Planification-Options.php:158
+msgid "Date-Titre => Image => Extrait-Article"
+msgstr ""
+
+#: ../WP-Planification-Options.php:159
+msgid "Date-Titre => Extrait-Article => Image"
+msgstr ""
+
+#: ../WP-Planification-Options.php:160
+msgid "Extrait-Article => Date-Titre => Image"
+msgstr ""
+
+#: ../WP-Planification-Options.php:161
+msgid "Extrait-Article => Image => Date-Titre"
+msgstr ""
+
+#: ../WP-Planification-Options.php:162
+msgid "Image => Date-Titre => Extrait-Article"
+msgstr ""
+
+#: ../WP-Planification-Options.php:163
+msgid "Image => Extrait-Article => Date-Titre"
+msgstr ""
+
+#: ../WP-Planification-Options.php:164
+msgid "Ne rien afficher..."
+msgstr ""
+
+#: ../WP-Planification-Options.php:168
+msgid "Affichage de la date et/ou du lien ?"
+msgstr ""
+
+#: ../WP-Planification-Options.php:170
+msgid "Date + Lien"
+msgstr ""
+
+#: ../WP-Planification-Options.php:171
+msgid "Lien + Date"
+msgstr ""
+
+#: ../WP-Planification-Options.php:172
+msgid "Date seule"
+msgstr ""
+
+#: ../WP-Planification-Options.php:173
+msgid "Lien seul"
+msgstr ""
+
+#: ../WP-Planification-Options.php:174
+msgid "Aucun des deux"
+msgstr ""
+
+#: ../WP-Planification-Options.php:178
+msgid "Affichage de l'extrait ou de l'article ?"
+msgstr ""
+
+#: ../WP-Planification-Options.php:180
+msgid "Extrait"
+msgstr ""
+
+#: ../WP-Planification-Options.php:181
+msgid "Article complet"
+msgstr ""
+
+#: ../WP-Planification-Options.php:182
+msgid "Aucun"
+msgstr ""
+
+#: ../WP-Planification-Options.php:186
+msgid "Afficher un lien \"Lire la suite...\""
+msgstr ""
+
+#: ../WP-Planification-Options.php:193
+msgid "Texte du \"Lire la suite...\" (si actif)"
+msgstr ""
+
+#: ../WP-Planification-Options.php:197
+msgid "Ajout de l'image à la Une ?"
+msgstr ""
+
+#: ../WP-Planification-Options.php:202
+msgid "Activer les images à la Une pour afficher la vignette"
+msgstr ""
+
+#: ../WP-Planification-Options.php:203
+msgid ""
+"N.B. : add_theme_support('post-thumbnails'); dans functions.php pour activer "
+"l'option"
+msgstr ""
+
+#: ../WP-Planification-Options.php:207
+msgid "Mise en page HTML"
+msgstr ""
+
+#: ../WP-Planification-Options.php:209
+msgid "Séparateur entre la date et le titre *"
+msgstr ""
+
+#: ../WP-Planification-Options.php:213
+msgid "Séparateur pour l'article ou l'extrait *"
+msgstr ""
+
+#: ../WP-Planification-Options.php:217
+msgid "Séparateur pour l'image à la Une *"
+msgstr ""
+
+#: ../WP-Planification-Options.php:221
+msgid "* Code HTML accepté"
+msgstr ""
+
+#: ../WP-Planification-Options.php:223
+msgid "Balises d'encadrement du conteneur général"
+msgstr ""
+
+#: ../WP-Planification-Options.php:238
+msgid "Balises d'encadrement du bloc \"Date + Titre\""
+msgstr ""
+
+#: ../WP-Planification-Options.php:253
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:204
+msgid "Balises d'encadrement de la date"
+msgstr ""
+
+#: ../WP-Planification-Options.php:268
+msgid "Balises d'encadrement du texte (lien)"
+msgstr ""
+
+#: ../WP-Planification-Options.php:281
+msgid "Remplacer \"a\" pour rendre le lien inactif..."
+msgstr ""
+
+#: ../WP-Planification-Options.php:284
+msgid "Balises d'encadrement du contenu ou de l'extrait"
+msgstr ""
+
+#: ../WP-Planification-Options.php:299
+msgid "Balises d'encadrement du \"Lire la suite...\""
+msgstr ""
+
+#: ../WP-Planification-Options.php:314
+msgid "Balises d'encadrement de l'image à la Une"
+msgstr ""
+
+#: ../WP-Planification-Options.php:329
+msgid "Faire un \"clear\" après le bloc ?"
+msgstr ""
+
+#: ../WP-Planification-Options.php:337
+msgid "Autres options"
+msgstr ""
+
+#: ../WP-Planification-Options.php:338
+msgid "Options de la base de données"
+msgstr ""
+
+#: ../WP-Planification-Options.php:340
+msgid "Nombre de posts affichés par défaut"
+msgstr ""
+
+#: ../WP-Planification-Options.php:344
+msgid "Type de contenu à publier"
+msgstr ""
+
+#: ../WP-Planification-Options.php:346
+msgid "post"
+msgstr ""
+
+#: ../WP-Planification-Options.php:347
+msgid "page"
+msgstr ""
+
+#: ../WP-Planification-Options.php:348
+msgid "Les deux"
+msgstr ""
+
+#: ../WP-Planification-Options.php:352
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:218
+msgid "Colonne cible"
+msgstr ""
+
+#: ../WP-Planification-Options.php:354
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:167
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:168
+msgid "post_date"
+msgstr ""
+
+#: ../WP-Planification-Options.php:355
+msgid "post_date_gmt"
+msgstr ""
+
+#: ../WP-Planification-Options.php:359
+msgid "Colonne utilisée pour le classement"
+msgstr ""
+
+#: ../WP-Planification-Options.php:374
+msgid "Ordre d'affichage"
+msgstr ""
+
+#: ../WP-Planification-Options.php:380
+msgid "Affichage si aucune publication future n'existe"
+msgstr ""
+
+#: ../WP-Planification-Options.php:382
+msgid "Titre affiché si aucune planification *"
+msgstr ""
+
+#: ../WP-Planification-Options.php:386
+msgid "Phrase affichée si aucune planification *"
+msgstr ""
+
+#: ../WP-Planification-Options.php:389
+msgid ""
+"* Laisser les deux champs vides pour masquer le bloc quand aucune "
+"planification n'existe"
+msgstr ""
+
+#: ../WP-Planification-Options.php:392
+msgid "Choix des classes CSS"
+msgstr ""
+
+#: ../WP-Planification-Options.php:394
+msgid "Ajout de la feuille de style par défaut ?"
+msgstr ""
+
+#: ../WP-Planification-Options.php:396
+msgid "Aucune feuille"
+msgstr ""
+
+#: ../WP-Planification-Options.php:397
+msgid "Feuille vide personnalisable (style-empty.css)"
+msgstr ""
+
+#: ../WP-Planification-Options.php:398
+msgid "Style sobre"
+msgstr ""
+
+#: ../WP-Planification-Options.php:399
+msgid "Dominante en noir"
+msgstr ""
+
+#: ../WP-Planification-Options.php:400
+msgid "Dominante en gris"
+msgstr ""
+
+#: ../WP-Planification-Options.php:401
+msgid "Dominante en bleu"
+msgstr ""
+
+#: ../WP-Planification-Options.php:402
+msgid "Dominante en rouge"
+msgstr ""
+
+#: ../WP-Planification-Options.php:403
+msgid "Dominante en vert"
+msgstr ""
+
+#: ../WP-Planification-Options.php:404
+msgid "Dominante en noir sans bordures"
+msgstr ""
+
+#: ../WP-Planification-Options.php:405
+msgid "Dominante en gris sans bordures"
+msgstr ""
+
+#: ../WP-Planification-Options.php:406
+msgid "Dominante en bleu sans bordures"
+msgstr ""
+
+#: ../WP-Planification-Options.php:407
+msgid "Dominante en rouge sans bordures"
+msgstr ""
+
+#: ../WP-Planification-Options.php:408
+msgid "Dominante en vert sans bordures"
+msgstr ""
+
+#: ../WP-Planification-Options.php:412
+msgid "Classe du bloc global"
+msgstr ""
+
+#: ../WP-Planification-Options.php:416
+msgid "Classe du bloc \"date + lien...\""
+msgstr ""
+
+#: ../WP-Planification-Options.php:420
+msgid "Classe de la date"
+msgstr ""
+
+#: ../WP-Planification-Options.php:424
+msgid "Classe du lien (URL) ou du texte"
+msgstr ""
+
+#: ../WP-Planification-Options.php:428
+msgid "Classe du bloc de contenu (extrait ou article)"
+msgstr ""
+
+#: ../WP-Planification-Options.php:432
+msgid "Classe du bloc \"Lire la suite...\""
+msgstr ""
+
+#: ../WP-Planification-Options.php:436
+msgid "Classe de l'image à la Une"
+msgstr ""
+
+#: ../WP-Planification-Widget.php:7
+msgid "WP-Planification"
+msgstr ""
+
+#: ../WP-Planification-Widget.php:8
+msgid ""
+"Afficher des publications et événements futurs (en cas de planification "
+"d'articles ou de pages)"
+msgstr ""
+
+#: ../WP-Planification-Widget.php:324
+msgid "Consultez la page de réglages pour tout paramétrer en détail..."
+msgstr ""
+
+#: ../WP-Planification-Widget.php:326
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:174
+msgid "Titre"
+msgstr ""
+
+#: ../WP-Planification-Widget.php:328
+msgid "Nombre de posts (optionnel)"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:159
+msgid "1"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:160
+msgid "l j F Y"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:161
+msgid " : "
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:162
+msgid "div"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:163
+msgid "p"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:164
+msgid "span"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:169
+msgid "ASC"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:178
+msgid "Style CSS défini ?"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:185
+msgid "Voir documentation PHP sur les dates"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:186
+msgid "(ex : \"l j F Y\" pour \"mardi 25 juin 2013\")"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:190
+msgid "Séparateur"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:192
+msgid "Code HTML accepté"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:195
+msgid "Balises d'encadrement du bloc"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:197
+msgid "(div, section, aside...)"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:200
+msgid "Balises du bloc \"Date + Lien\""
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:207
+msgid "Si aucun événément"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:209
+msgid "Titre si aucun événement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:213
+msgid "Phrase si aucun événement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:216
+msgid "Options BDD"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:222
+msgid "Colonne de classement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:226
+msgid "Ordre d\\affichage"
+msgstr ""
