@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP_Planification\n"
-"POT-Creation-Date: 2014-01-13 12:44+0100\n"
-"PO-Revision-Date: 2014-01-13 12:44+0100\n"
+"POT-Creation-Date: 2014-01-13 12:43+0100\n"
+"PO-Revision-Date: 2014-01-13 12:43+0100\n"
 "Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
 "Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
 "Language: Français\n"
@@ -18,6 +18,7 @@ msgstr ""
 
 #: ../WP-Planification-Activation-BDD.php:75
 #: ../WP-Planification-Widget.php:319
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:158
 msgid "Prochains événements"
 msgstr ""
 
@@ -30,10 +31,12 @@ msgid "WP-Planification-ReadMore"
 msgstr ""
 
 #: ../WP-Planification-Activation-BDD.php:102
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:165
 msgid "Aucun événement"
 msgstr ""
 
 #: ../WP-Planification-Activation-BDD.php:103
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:166
 msgid "Aucun événement pour le moment"
 msgstr ""
 
@@ -112,10 +115,12 @@ msgid "Laisser vide pour masquer le titre..."
 msgstr ""
 
 #: ../WP-Planification-Options.php:140
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:180
 msgid "Options d'affichage"
 msgstr ""
 
 #: ../WP-Planification-Options.php:142
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:182
 msgid "Formatage de la date"
 msgstr ""
 
@@ -285,6 +290,7 @@ msgid "Balises d'encadrement du bloc \"Date + Titre\""
 msgstr ""
 
 #: ../WP-Planification-Options.php:253
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:204
 msgid "Balises d'encadrement de la date"
 msgstr ""
 
@@ -341,10 +347,13 @@ msgid "Les deux"
 msgstr ""
 
 #: ../WP-Planification-Options.php:352
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:218
 msgid "Colonne cible"
 msgstr ""
 
 #: ../WP-Planification-Options.php:354
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:167
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:168
 msgid "post_date"
 msgstr ""
 
@@ -481,9 +490,94 @@ msgid "Consultez la page de réglages pour tout paramétrer en détail..."
 msgstr ""
 
 #: ../WP-Planification-Widget.php:326
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:174
 msgid "Titre"
 msgstr ""
 
 #: ../WP-Planification-Widget.php:328
 msgid "Nombre de posts (optionnel)"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:159
+msgid "1"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:160
+msgid "l j F Y"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:161
+msgid " : "
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:162
+msgid "div"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:163
+msgid "p"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:164
+msgid "span"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:169
+msgid "ASC"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:178
+msgid "Style CSS défini ?"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:185
+msgid "Voir documentation PHP sur les dates"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:186
+msgid "(ex : \"l j F Y\" pour \"mardi 25 juin 2013\")"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:190
+msgid "Séparateur"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:192
+msgid "Code HTML accepté"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:195
+msgid "Balises d'encadrement du bloc"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:197
+msgid "(div, section, aside...)"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:200
+msgid "Balises du bloc \"Date + Lien\""
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:207
+msgid "Si aucun événément"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:209
+msgid "Titre si aucun événement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:213
+msgid "Phrase si aucun événement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:216
+msgid "Options BDD"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:222
+msgid "Colonne de classement"
+msgstr ""
+
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:226
+msgid "Ordre d\\affichage"
 msgstr ""

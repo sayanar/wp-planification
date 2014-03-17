@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP_Planification\n"
-"POT-Creation-Date: 2014-01-13 12:44+0100\n"
-"PO-Revision-Date: 2014-01-13 12:44+0100\n"
+"POT-Creation-Date: 2014-01-13 12:43+0100\n"
+"PO-Revision-Date: 2014-01-13 12:43+0100\n"
 "Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
 "Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
 "Language: English\n"
@@ -18,6 +18,7 @@ msgstr ""
 
 #: ../WP-Planification-Activation-BDD.php:75
 #: ../WP-Planification-Widget.php:319
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:158
 msgid "Prochains événements"
 msgstr "Next events"
 
@@ -30,10 +31,12 @@ msgid "WP-Planification-ReadMore"
 msgstr "WP-Planification-ReadMore"
 
 #: ../WP-Planification-Activation-BDD.php:102
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:165
 msgid "Aucun événement"
 msgstr "No event"
 
 #: ../WP-Planification-Activation-BDD.php:103
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:166
 msgid "Aucun événement pour le moment"
 msgstr "No event now"
 
@@ -121,10 +124,12 @@ msgid "Laisser vide pour masquer le titre..."
 msgstr "Empty to hide the title."
 
 #: ../WP-Planification-Options.php:140
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:180
 msgid "Options d'affichage"
 msgstr "Display options"
 
 #: ../WP-Planification-Options.php:142
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:182
 msgid "Formatage de la date"
 msgstr "Date format"
 
@@ -297,6 +302,7 @@ msgid "Balises d'encadrement du bloc \"Date + Titre\""
 msgstr "Tags for the block \"Date + Title\""
 
 #: ../WP-Planification-Options.php:253
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:204
 msgid "Balises d'encadrement de la date"
 msgstr "Tags for the dates:"
 
@@ -353,10 +359,13 @@ msgid "Les deux"
 msgstr "Both"
 
 #: ../WP-Planification-Options.php:352
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:218
 msgid "Colonne cible"
 msgstr "Target Column"
 
 #: ../WP-Planification-Options.php:354
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:167
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:168
 msgid "post_date"
 msgstr "post_date"
 
@@ -493,6 +502,7 @@ msgid "Consultez la page de réglages pour tout paramétrer en détail..."
 msgstr "Check the settings page to set everything in detail ..."
 
 #: ../WP-Planification-Widget.php:326
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:174
 msgid "Titre"
 msgstr "Title"
 
@@ -500,68 +510,89 @@ msgstr "Title"
 msgid "Nombre de posts (optionnel)"
 msgstr "Number of posts (optionnal)"
 
-#~ msgid "1"
-#~ msgstr "1"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:159
+msgid "1"
+msgstr "1"
 
-#~ msgid "l j F Y"
-#~ msgstr "l j F Y"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:160
+msgid "l j F Y"
+msgstr "l j F Y"
 
-#~ msgid " : "
-#~ msgstr " : "
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:161
+msgid " : "
+msgstr " : "
 
-#~ msgid "div"
-#~ msgstr "div"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:162
+msgid "div"
+msgstr "div"
 
-#~ msgid "p"
-#~ msgstr "p"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:163
+msgid "p"
+msgstr "p"
 
-#~ msgid "span"
-#~ msgstr "span"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:164
+msgid "span"
+msgstr "span"
 
-#~ msgid "ASC"
-#~ msgstr "ASC"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:169
+msgid "ASC"
+msgstr "ASC"
 
-#~ msgid "Style CSS défini ?"
-#~ msgstr "Default stylesheet ?"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:178
+msgid "Style CSS défini ?"
+msgstr "Default stylesheet ?"
 
-#~ msgid "Voir documentation PHP sur les dates"
-#~ msgstr "See the documentation of PHP about dates"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:185
+msgid "Voir documentation PHP sur les dates"
+msgstr "See the documentation of PHP about dates"
 
-#~ msgid "(ex : \"l j F Y\" pour \"mardi 25 juin 2013\")"
-#~ msgstr "(for example: \"l, F j, Y\" to \"Tuesday, June 25, 2013\")"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:186
+msgid "(ex : \"l j F Y\" pour \"mardi 25 juin 2013\")"
+msgstr "(for example: \"l, F j, Y\" to \"Tuesday, June 25, 2013\")"
 
-#~ msgid "Séparateur"
-#~ msgstr "Separator"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:190
+msgid "Séparateur"
+msgstr "Separator"
 
-#~ msgid "Code HTML accepté"
-#~ msgstr "HTML accepted"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:192
+msgid "Code HTML accepté"
+msgstr "HTML accepted"
 
-#~ msgid "Balises d'encadrement du bloc"
-#~ msgstr "Tags for the global block:"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:195
+msgid "Balises d'encadrement du bloc"
+msgstr "Tags for the global block:"
 
-#~ msgid "(div, section, aside...)"
-#~ msgstr "(div, section, aside...)"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:197
+msgid "(div, section, aside...)"
+msgstr "(div, section, aside...)"
 
-#~ msgid "Balises du bloc \"Date + Lien\""
-#~ msgstr "Tags for the block \"Date + Title\":"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:200
+msgid "Balises du bloc \"Date + Lien\""
+msgstr "Tags for the block \"Date + Title\":"
 
-#~ msgid "Si aucun événément"
-#~ msgstr "If no event..."
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:207
+msgid "Si aucun événément"
+msgstr "If no event..."
 
-#~ msgid "Titre si aucun événement"
-#~ msgstr "Title if no event"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:209
+msgid "Titre si aucun événement"
+msgstr "Title if no event"
 
-#~ msgid "Phrase si aucun événement"
-#~ msgstr "Text if no event"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:213
+msgid "Phrase si aucun événement"
+msgstr "Text if no event"
 
-#~ msgid "Options BDD"
-#~ msgstr "Database settings"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:216
+msgid "Options BDD"
+msgstr "Database settings"
 
-#~ msgid "Colonne de classement"
-#~ msgstr "Order Column"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:222
+msgid "Colonne de classement"
+msgstr "Order Column"
 
-#~ msgid "Ordre d\\affichage"
-#~ msgstr "Display order"
+#: ../saves/WP-Planification-Widget-Sans-BDD.php:226
+msgid "Ordre d\\affichage"
+msgstr "Display order"
 
 #~ msgid "Ordre et options d'affichage"
 #~ msgstr "Display order"

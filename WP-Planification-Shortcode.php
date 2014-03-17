@@ -106,7 +106,7 @@ function WP_Planification_Shortcode($atts = '') {
 					
 					// Instanciation des variables $dateFuture
 					$dateInfo = mysql2date($formatageDate, $dateFuture->post_date); // Date de l'événement prévisionnel (au format "dimanche 30 juin 2013")
-					$URLLien = $dateFuture->guid; // URL de l'article ou de la page de l'événément à venir
+					$URLLien = get_permalink($dateFuture->ID); // URL de l'article ou de la page de l'événément à venir
 					$content = $dateFuture->post_content; // Contenu de l'article
 					$excerpt = $dateFuture->post_excerpt; // Contenu de l'extrait
 					$ancreLien = $dateFuture->post_title; // Récupération du titre de l'article ou de la page

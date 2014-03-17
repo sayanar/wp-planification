@@ -7,7 +7,7 @@ Tags: planification, planning, organisation, event, events, événements, evenemen
 License: GPLv2 or later
 Requires at least: 2.5
 Tested up to: 3.6.1
-Stable Tag: 2.2
+Stable Tag: 2.3
 
 "WP-Planification" permet d'afficher les publications à venir (widget ou shortcode [planification]).
 
@@ -66,7 +66,11 @@ Stable Tag: 2.2
 - Correction de la gestion des images à la Une trop grandes... (Fixed post thumbnails too large ...)
 - Modification de l'affichage d'une option dans le backoffice (Change a display for one option in the settings)
 
-= Version 2.2 (13/01/2013) =
+= Version 2.2 (13/10/2013) =
 
 - Possibilit&eacute; de g&eacute;rer le nombre de publications affich&eacute;es avec le shortcode [planification nb="2"]... (Ability to manage number of showed posts with shortcode [planification nb="2"]...)
 - Possibilit&eacute; de g&eacute;rer le nombre de publications affich&eacute;es avec le widget [planification nb="2"]... (Ability to manage number of showed posts with widget...)
+
+= Version 2.3 (17/03/2014) =
+
+- Nettoyage des URLs en utilisant les permaliens courants (Fixed problem with URL href and permalinks)
