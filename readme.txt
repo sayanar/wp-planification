@@ -6,7 +6,7 @@ Plugin URI: http://wordpress.org/extend/plugins/wp-planification/
 Tags: planification, planning, organisation, event, events, événements, evenement, evenements, événement, publications, futur, à venir, a venir, planif, planing, plan, future, post_date, dates, date, sortie, sorties, schedule, scheduled, posts, post, teasing, tease, plan, readmore, calendrier, calendar
 License: GPLv2 or later
 Requires at least: 2.5
-Tested up to: 3.6.1
+Tested up to: 3.9
 Stable Tag: 2.3
 
 "WP-Planification" permet d'afficher les publications à venir (widget ou shortcode [planification]).
