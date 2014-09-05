@@ -6,7 +6,7 @@ Plugin URI: http://wordpress.org/extend/plugins/wp-planification/
 Tags: planification, planning, organisation, event, events, événements, evenement, evenements, événement, publications, futur, à venir, a venir, planif, planing, plan, future, post_date, dates, date, sortie, sorties, schedule, scheduled, posts, post, teasing, tease, plan, readmore, calendrier, calendar
 License: GPLv2 or later
 Requires at least: 2.5
-Tested up to: 3.9
+Tested up to: 4.0
 Stable Tag: 2.3
 
 "WP-Planification" permet d'afficher les publications à venir (widget ou shortcode [planification]).
@@ -55,7 +55,7 @@ Stable Tag: 2.3
 
 - Possibilit&eacute; de d&eacute;sactiver le bloc sans couper le shortcode ou le widget
 - Possibilit&eacute; d'ajouter le contenu ou l'extrait en plus de la date et du titre (ou lien)
-- Possibilit&eacute; d'ajouter l'image à la Une associ&eacute;e au contenu
+- Possibilit&eacute; d'ajouter l'image &agrave; la Une associ&eacute;e au contenu
 - Ajout possible d'un "Lire la suite" avec texte au choix
 - Ajout de plusieurs styles CSS au choix
 - Gestion des options revue et corrig&eacute;e (plus pr&eactute;cise)
@@ -63,7 +63,7 @@ Stable Tag: 2.3
 
 = Version 2.1 (10/10/2013) =
 
-- Correction de la gestion des images à la Une trop grandes... (Fixed post thumbnails too large ...)
+- Correction de la gestion des images &agrave; la Une trop grandes... (Fixed post thumbnails too large ...)
 - Modification de l'affichage d'une option dans le backoffice (Change a display for one option in the settings)
 
 = Version 2.2 (13/10/2013) =
