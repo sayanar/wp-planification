@@ -4,7 +4,7 @@ Plugin Name: WP-Planification
 Plugin URI: http://blog.internet-formation.fr/2013/07/wp-planification/
 Description: Plugin utilisé pour créer un widget personnalisé permettant de récupérer dynamiquement les articles et pages planifiées (futures) dans WordPress. Il est donc possible d'afficher des événements futurs ou des publications à venir en utilisant la planification (widget ou shortcode). (<em>Plugin used to create a custom widget to dynamically retrieve the scheduled posts and pages in WordPress. It is therefore possible to display scheduled events or future publications using WP-Planification (widget or shortcode)</em>).
 Author: Mathieu Chartier
-Version: 2.3
+Version: 2.3.1
 Author URI: http://blog.internet-formation.fr
 */
 
