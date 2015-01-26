@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP_Planification\n"
-"POT-Creation-Date: 2014-01-13 12:42+0100\n"
-"PO-Revision-Date: 2014-01-13 12:42+0100\n"
+"POT-Creation-Date: 2015-01-26 12:28+0100\n"
+"PO-Revision-Date: 2015-01-26 12:28+0100\n"
 "Last-Translator: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
 "Language-Team: Mathieu Chartier <mathieu.chartier@internet-formation.fr>\n"
-"Language: English\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: plurals=2;plural=n>1;\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../WP-Planification-Activation-BDD.php:75
-#: ../WP-Planification-Widget.php:319
+#: ../WP-Planification-Widget.php:318
 #: ../saves/WP-Planification-Widget-Sans-BDD.php:158
 msgid "Prochains événements"
 msgstr "Next events"
@@ -89,13 +89,13 @@ msgstr "<strong>Shortcode [planification]</strong> to add in posts or pages"
 
 #: ../WP-Planification-Options.php:108
 msgid ""
-"<em>N.B. : n'hésitez pas à contacter <a href=\"http://blog.internet-"
-"formation.fr\" target=\"_blank\">Mathieu Chartier</a>, le créateur du "
+"<em>N.B. : n'hésitez pas à contacter <a href=\\\"http://blog.internet-"
+"formation.fr\\\" target=\\\"_blank\\\">Mathieu Chartier</a>, le créateur du "
 "plugin, pour de plus amples informations.</em>"
 msgstr ""
-"<em> N.B. : contact <a href=\"http://blog.internet-formation.fr\" target="
+"<em>N.B. : contact <a href=\"http://blog.internet-formation.fr\" target="
 "\"_blank\">Mathieu Chartier</a>, the creator of the plugin, for more "
-"information.</ em>"
+"information.</em>"
 
 #: ../WP-Planification-Options.php:127
 msgid "Paramètres de l'extension"
@@ -497,16 +497,16 @@ msgid ""
 "d'articles ou de pages)"
 msgstr "Show publications and future events (for scheduled articles or pages)"
 
-#: ../WP-Planification-Widget.php:324
+#: ../WP-Planification-Widget.php:323
 msgid "Consultez la page de réglages pour tout paramétrer en détail..."
 msgstr "Check the settings page to set everything in detail ..."
 
-#: ../WP-Planification-Widget.php:326
+#: ../WP-Planification-Widget.php:325
 #: ../saves/WP-Planification-Widget-Sans-BDD.php:174
 msgid "Titre"
 msgstr "Title"
 
-#: ../WP-Planification-Widget.php:328
+#: ../WP-Planification-Widget.php:327
 msgid "Nombre de posts (optionnel)"
 msgstr "Number of posts (optionnal)"
 

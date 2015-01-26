@@ -97,7 +97,7 @@ class WP_widget_planification extends WP_widget {
 				// On vérifie d'abord qu'un titre est écrit et que la limitation n'est pas vide ou à zéro...
 				if(!empty($limitation)) {
 	
-				echo "<".$capsule." class='".$classTag."' id='".$classTag."'>";
+					echo "<".$capsule." class='".$classTag."' id='".$classTag."'>";
 					// Affichage du titre s'il n'est pas vide
 					if(!empty($titreBloc)) {
 						echo $before_title.'<span>'.$titreBloc.'</span>'.$after_title;
@@ -108,7 +108,6 @@ class WP_widget_planification extends WP_widget {
 					// On crée une variable $dateFuture pour récupérer les champs de la base de donnée qui nous intéresse
 					foreach ($RequeteSQL as $dateFuture) {
 						$nb++; // Incrémentation automatique de l'ID à chaque tour de boucle
-						
 						/*
 						// Requête de récupération des résultats dans la base de données (pour afficher les informations)						
 						$ImageOK = $wpdb->get_results("SELECT * FROM $tableCible AS p INNER JOIN $tableMeta AS m1 ON (m1.post_id = '".$dateFuture->ID."' AND m1.meta_value = p.ID AND m1.meta_key = '_thumbnail_id' AND p.post_type = 'attachment')");
@@ -123,7 +122,7 @@ class WP_widget_planification extends WP_widget {
 						$content = $dateFuture->post_content; // Contenu de l'article
 						$excerpt = $dateFuture->post_excerpt; // Contenu de l'extrait
 						$ancreLien = $dateFuture->post_title; // Récupération du titre de l'article ou de la page
-						$attributTitle = $dateFuture->post_title; // Valeur de l'attribut title="" (ici, reprise du titre de l'article ou de la page)					
+						$attributTitle = $dateFuture->post_title; // Valeur de l'attribut title="" (ici, reprise du titre de l'article ou de la page)
 
 						// Arguments utilisés pour les blocs
 						$argsDate = array('class'=>$classDate, 'id'=>$classDate."-".$nb);

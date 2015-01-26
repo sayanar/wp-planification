@@ -208,6 +208,16 @@ function encapsuleBloc($Contenant, $Balises = "div", $Attributs = array()) {
 	return $encapsule;
 }
 
+// Fonction qui permet d'afficher les publications futures même si nous ne sommes pas connectés !
+function show_future_posts($posts) {
+   global $wp_query, $wpdb;
+   if((is_single() || is_page()) && $wp_query->post_count == 0) {
+      $posts = $wpdb->get_results($wp_query->request);
+   }
+   return $posts;
+}
+add_filter('the_posts', 'show_future_posts');
+
 // Code du shortcode dans le fichier dédié
 include('WP-Planification-Options.php');
 

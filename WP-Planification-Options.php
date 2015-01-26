@@ -105,7 +105,7 @@ function WP_Planification_Callback() {
 	echo '<li>'; _e('<strong>Widget</strong> entièrement modulable','WP-Planification'); echo '</li>';
 	echo '<li>'; _e('<strong>Shortcode [planification]</strong> à ajouter dans les articles ou pages','WP-Planification'); echo '</li>';
 	echo '</ol>';
-	_e('<em>N.B. : n\'hésitez pas à contacter <a href="http://blog.internet-formation.fr" target="_blank">Mathieu Chartier</a>, le créateur du plugin, pour de plus amples informations.</em>' , 'WP-Planification'); echo '<br/><br/>';
+	_e('<em>N.B. : n\'hésitez pas à contacter <a href=\"http://blog.internet-formation.fr\" target=\"_blank\">Mathieu Chartier</a>, le créateur du plugin, pour de plus amples informations.</em>' , 'WP-Planification'); echo '<br/><br/>';
 
 		// Sélection des données dans la base de données		
 		$select = $wpdb->get_row("SELECT * FROM $table_WP_Planification WHERE id=1");
